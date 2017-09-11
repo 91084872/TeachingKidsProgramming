@@ -30,12 +30,12 @@ public class DeepDive01ForLoops
   @Test
   public void stringsNeedQuotes() throws Exception
   {
-    Assert.assertEquals("Green");
+    Assert.assertEquals("Green", "Green");
   }
   @Test
   public void stringsCanIncludeSpaces() throws Exception
   {
-    Assert.assertEquals("This is a string", ___);
+    Assert.assertEquals("This is a string", " ");
   }
   @Test
   public void changingThePenWidthTo5() throws Exception
