@@ -11,7 +11,7 @@ public class Houses3
     VirtualProctor.setClassName("Palm Digital");
     VirtualProctor.setName("Arthur");
     Tortoise.show();
-    Tortoise.setSpeed(2);
+    Tortoise.setSpeed(6);
     Tortoise.setX(200);
     int Height = 40;
     drawHouse(Height);

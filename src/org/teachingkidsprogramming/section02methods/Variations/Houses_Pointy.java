@@ -17,12 +17,12 @@ public class Houses_Pointy
     drawHouseFlatRoof(20);
     drawHousePointyRoof(Height);
     drawHousePointyRoof(120);
-    drawHousePointyRoof(90);
-    drawHousePointyRoof(20);
+    // drawHousePointyRoof(90);
+    // drawHousePointyRoof(20);
     drawHouseTrapezoidRoof(Height);
     drawHouseTrapezoidRoof(120);
-    drawHouseTrapezoidRoof(90);
-    drawHouseTrapezoidRoof(20);
+    //  drawHouseTrapezoidRoof(90);
+    //drawHouseTrapezoidRoof(20);
   }
   private static void drawHouseFlatRoof(int Height)
   {
