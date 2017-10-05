@@ -104,7 +104,7 @@ public class DeepDive02Variables
   {
     String xmasList = "bike";
     dreamBigger(); //This method is directly below
-    Assert.assertEquals(xmasList, "hippopotamus");
+    Assert.assertEquals(xmasList, "bike");
   }
   private void dreamBigger()
   {
