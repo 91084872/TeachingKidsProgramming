@@ -71,12 +71,12 @@ public class ChooseYourOwnAdventure
       endStory();
     }
   }
-  private static void pourIntoToilet(int answer)
+  private static void pourIntoToilet(int answe)
   {
     MessageBox.showMessage(
         "As you pour the ooze into the toilet it backs up, gurgles, and explodes, covering you in radioactive waste.");
-    String answe = MessageBox.askForTextInput("Do you want to train to be a NINJA?  'Yes' or 'HECK YES'?");
-    if ("Yes".equals(answe))
+    String answee = MessageBox.askForTextInput("Do you want to train to be a NINJA?  'Yes' or 'HECK YES'?");
+    if ("Yes".equals(answee))
     {
       //                    Tell the user "Awesome dude!  You live out the rest of your life fighting crimes and eating pizza!" --#14
       MessageBox
