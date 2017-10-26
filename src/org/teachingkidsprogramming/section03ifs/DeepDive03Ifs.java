@@ -2,6 +2,7 @@ package org.teachingkidsprogramming.section03ifs;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.teachingextensions.logo.utils.EventUtils.MessageBox;
 
 @SuppressWarnings("unused")
 public class DeepDive03Ifs
@@ -32,13 +33,13 @@ public class DeepDive03Ifs
     {
       dessert = "ketchup";
     }
-    Assert.assertEquals(___, dessert);
+    Assert.assertEquals("chocolate", dessert);
   }
   @Test
   public void notEverEverEver() throws Exception
   {
     String dessert = "chocolate";
-    if (!_____)
+    if (!true)
     {
       dessert = "ketchup";
     }
@@ -244,4 +245,41 @@ public class DeepDive03Ifs
   {
     return ___;
   }
+  @Test
+public void cyoaInputTest2() throws Exception
+{
+String result = MessageBox.askForTextInput("Do you want to 'wake up' or 'explore' the dream?");
+//test that user entered "Hello"
+ 
+Assert.assertEquals(result, "wake up");
+}
+  @Test
+  public void test2()throws Exception
+  {
+    String result = MessageBox.askForTextInput("Do you want to 'wake up' or 'explore' the dream?");
+    Assert.assertEquals(result, "explore");
+  }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+  }  
+  
+  
 }
