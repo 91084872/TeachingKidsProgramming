@@ -41,6 +41,7 @@ public class PentagonCrazy
       //        Turn the tortoise 1/5th of 360 degrees --#1
       Tortoise.turn(0.2 * 360);
       //        Turn the tortoise 1 more degree --#5
+      Tortoise.turn
       //    End Repeat --#2.2
     }
     //    ------------- End of drawPentagon recipe --#10.3
