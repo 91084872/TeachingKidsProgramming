@@ -6,7 +6,6 @@ public class PentagonCrazy
 {
   public static void main(String[] args)
   {
-    int length = 50;
     Tortoise.show();
     //    Make the tortoise move as fast as possible --#3
     Tortoise.setSpeed(10);
@@ -26,6 +25,7 @@ public class PentagonCrazy
     //    Do the following 200 times --#2.1
     for (int i = 1; i <= 200; i++)
     {
+      int length = i;
       //        adjustPen (recipe below) --#9.1
       //
       //        ------------- Recipe for adjustPen --#9.2
@@ -39,9 +39,9 @@ public class PentagonCrazy
       //        Move the tortoise the length of a side --#4.1
       Tortoise.move(length);
       //        Turn the tortoise 1/5th of 360 degrees --#1
-      Tortoise.turn(0.2 * 360);
+      Tortoise.turn(360 / 5);
       //        Turn the tortoise 1 more degree --#5
-      Tortoise.turn
+      Tortoise.turn(1);
       //    End Repeat --#2.2
     }
     //    ------------- End of drawPentagon recipe --#10.3
