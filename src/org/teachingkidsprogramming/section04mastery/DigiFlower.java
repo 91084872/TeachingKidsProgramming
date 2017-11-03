@@ -12,7 +12,7 @@ public class DigiFlower
   public static void main(String[] args)
   {
     Tortoise.show();
-    Tortoise.setSpeed(9);
+    Tortoise.setSpeed(10);
     Tortoise.getBackgroundWindow().setBackground(Grays.Silver);
     Tortoise.setPenWidth(3);
     createColorPalette();
