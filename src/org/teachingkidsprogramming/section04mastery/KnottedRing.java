@@ -29,13 +29,13 @@ public class KnottedRing
   }
   private static void createColorPalette()
   {
-    ColorWheel.addColor(PenColors.Pinks.HotPink);
-    ColorWheel.addColor(PenColors.Reds.Red);
     ColorWheel.addColor(PenColors.Pinks.Fuchsia);
+    ColorWheel.addColor(PenColors.Reds.Crimson);
+    ColorWheel.addColor(PenColors.Pinks.MediumVioletRed);
     ColorWheel.addColor(PenColors.Reds.OrangeRed);
     ColorWheel.addColor(PenColors.Pinks.DeepPink);
     ColorWheel.addColor(PenColors.Reds.MediumVioletRed);
     ColorWheel.addColor(PenColors.Reds.Crimson);
-    ColorWheel.addColor(PenColors.Reds.Tomato);
+    ColorWheel.addColor(PenColors.Reds.OrangeRed);
   }
 }
