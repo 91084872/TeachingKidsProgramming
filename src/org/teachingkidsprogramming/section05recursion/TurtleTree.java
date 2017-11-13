@@ -14,6 +14,7 @@ public class TurtleTree
     Tortoise.show();
     Tortoise.setSpeed(10);
     //    Turn the background black  --#21
+    Tortoise.setBackground(Color.black);
     int length = 60;
     drawBranch(length);
   }
