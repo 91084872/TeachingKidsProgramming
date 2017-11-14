@@ -10,9 +10,8 @@ public class RecursiveSquare
     Tortoise.show();
     Tortoise.getBackgroundWindow().setBackground(PenColors.Greens.DarkGreen);
     Tortoise.setPenColor(PenColors.Yellows.Gold);
-    Tortoise.setSpeed(8);
+    Tortoise.setSpeed(10);
     //
-    //  Set the speed to the fastest --#8
     //  Update the length to 100.0 --#1.1
     double length = 100.0;
     //  MakeASquare with the current length(recipe below) --#11.4
@@ -20,17 +19,14 @@ public class RecursiveSquare
     //  Create the makeASquare recipe --#11.1
     //  If the current length is greater than 10 --#10.2
     //      Run the recipe moveToTheSquareStart with the current length  --#4.3
-    //
     moveToTheSquareStart(length);
-    //
-    //  Do the following 4 times --#7.1
-    //    Move the Tortoise the current length --#6.2
-    Tortoise.move(length);
-    //    MakeASquare with the current length divided by 1.7 (recipe below)--#11.3 
-    //      If the current process count is less than 3 (HINT: use 'i') --#9
-    //          Turn the tortoise 90 degrees to the right --#6.1
-    Tortoise.turn(90);
-    //  End Repeat --#7.2
+    for (int i = 0; i <= 4; i++)
+    {
+      Tortoise.move(length);
+      //    MakeASquare with the current length divided by 1.7 (recipe below)--#11.3 
+      //      If the current process count is less than 3 (HINT: use 'i') --#9
+      Tortoise.turn(90);
+    }
     //
     moveBackToCenter(length);
     //
