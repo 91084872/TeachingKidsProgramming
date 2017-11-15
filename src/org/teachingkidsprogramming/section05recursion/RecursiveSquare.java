@@ -14,23 +14,33 @@ public class RecursiveSquare
     //
     //  Update the length to 100.0 --#1.1
     double length = 100.0;
-    //  MakeASquare with the current length(recipe below) --#11.4
     //
-    //  Create the makeASquare recipe --#11.1
+    makeASquare(length);
+  }
+  private static void makeASquare(double length)
+  {
     //  If the current length is greater than 10 --#10.2
-    //      Run the recipe moveToTheSquareStart with the current length  --#4.3
-    moveToTheSquareStart(length);
-    for (int i = 0; i <= 4; i++)
+    if (length > 10)
     {
-      Tortoise.move(length);
-      //    MakeASquare with the current length divided by 1.7 (recipe below)--#11.3 
-      //      If the current process count is less than 3 (HINT: use 'i') --#9
-      Tortoise.turn(90);
+      //      Run the recipe moveToTheSquareStart with the current length  --#4.3
+      moveToTheSquareStart(length);
+      for (int i = 0; i <= 4; i++)
+      {
+        Tortoise.move(length);
+        //    MakeASquare with the current length divided by 1.7 (recipe below)--#11.3 
+        makeASquare(length * 1.7);
+        //      If the current process count is less than 3 (HINT: use 'i') --#9
+        if (i < 3)
+        {
+          Tortoise.turn(90);
+        }
+      }
     }
     //
     moveBackToCenter(length);
     //
     //  Set the current length to the current length times two --#10.1
+    length *= 2;
     //
     //  End of makeASquare recipe --#11.2
   }
