@@ -15,7 +15,6 @@ public class RecursiveSquare
     //  MakeASquare with the current length(recipe below) --#11.4
     //
     //  Create the makeASquare recipe --#11.1
-    //  If the current length is greater than 10 --#10.2
     if (length > 10)
     {
       //      Run the recipe moveToTheSquareStart with the current length  --#4.3

@@ -81,7 +81,7 @@ public class DeepDive04Mastery
   {
     Number number = 2 + 0.1;
     Assert.assertEquals(number.getClass(), Double.class);
-    Assert.assertEquals(number, ____);
+    Assert.assertEquals(number, 2.1);
   }
   @Test
   public void addingMixingMoreTypes() throws Exception
