@@ -19,7 +19,7 @@ public class AdLibs
     //  Add the words '"Then I " + currentEdVerb + " " to the currentStory --#5
     currentStory = currentStory + "Then I " + currentEdVerb + " ";
     //  Add the words "my " + currentBodyPart + ". " to the current story --#7
-    currentStory = currentStory + "James " + currentBodyPart + ". ";
+    currentStory = currentStory + "my " + currentBodyPart + ". ";
     //  Show the currentStory in a message box as a message --#1.1
     MessageBox.showMessage(currentStory);
   }
