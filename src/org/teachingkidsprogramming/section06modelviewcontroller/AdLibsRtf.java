@@ -26,7 +26,7 @@ public class AdLibsRtf
     Parser.parseRtfFile("view.rtf", word);
     String currentStory = "Today I woke up " + word.abverb + ". ";
     currentStory = currentStory + "Then I " + word.edVerb + " ";
-    currentStory = currentStory + " " + word.bodyPart + ". ";
+    currentStory = currentStory + "my " + word.bodyPart + ". ";
     Viewer.displayRtfFile(currentStory);
     //  Display the currentStory in an RTF file (use the Viewer object) --#1.3
   }
