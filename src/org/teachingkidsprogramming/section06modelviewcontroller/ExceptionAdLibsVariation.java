@@ -18,7 +18,7 @@ public class ExceptionAdLibsVariation
       MessageBox.askForTextInput("U don't like body parts?! U should!");
       askForBodyPartPls();
     }
-    if (bodyPart.matches("[\\d]*"))
+    else if (bodyPart.matches("[\\d]*"))
     {
       MessageBox.showMessage("A number 1= Body part?");
       askForBodyPartPls();
