@@ -25,17 +25,13 @@ public class SimpleBubble implements MouseLeftClickListener
   @Override
   public void onLeftMouseClick(int x, int y)
   {
-    //     createBubble (recipe below) --#8.1
     createBubble();
-    //     ------------- Recipe for createBubble --#8.2
-    //     Remove previous bubbles from your program window --#9
-    programWindow.clearWindow();
+    //  programWindow.clearWindow();
     Random random = new Random();
-    int radius = random.nextInt(41 + 10);
+    int radius = random.nextInt(30 + 10);
     Circle circle = new Circle(radius, ColorWheel.getNextColor());
     circle.setCenter(x, y);
     circle.addTo(programWindow);
-    //    ------------- End of createBubble recipe --#8.3
   }
   public static void createBubble()
   {

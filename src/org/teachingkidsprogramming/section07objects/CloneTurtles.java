@@ -43,7 +43,6 @@ public class CloneTurtles
       arthursTurtle.drawStar(100);
     }
   }
-  //
   public static void main(String[] args)
   {
     new CloneTurtles();
